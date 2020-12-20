@@ -110,7 +110,7 @@ export default function App() {
 	   
 	const handleAnswerButtonClick=(isCorrect)=>{
 		setNumberOfQuestions(numberOfQuestions + 1);
-		if(isCorrect==true){
+		if(isCorrect===true){
 			setScore(score+1);
 			play.play();
 		}
